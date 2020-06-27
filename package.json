@@ -1,5 +1,5 @@
 { "name": "shq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quote a string for safe use as a shell argument. Strips null characters.",
   "keywords": [
     "bash",

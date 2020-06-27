@@ -12,7 +12,7 @@ Quote a string for safe use as a shell argument. Strips null characters.
 API
 ---
 
-This module ESM-exports one function:
+This module ESM-exports one function that holds some methods:
 
 ### shq(x)
 
@@ -20,6 +20,27 @@ This module ESM-exports one function:
 * remove all U+0000 null characters, because all too often, some C program
   in the pipeline will screw it up even if properly quoted,
 * and in case it contains special characters, quote it.
+
+
+
+### shq.cfg(opt)
+
+Return a customized quoting function.
+`opt` is an optional options object that supports these keys:
+
+* `empty`: How to represent the empty string. Default: A pair of single quotes.
+* `gratuitous`: What string to put on both sides of a non-empty input that
+  doesn't need to be quoted.
+
+
+
+### shq.always
+
+A quoting function that adds `gratuitous` single quotes (c.f. `.cfg`).
+
+
+
+
 
 
 
