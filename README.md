@@ -26,7 +26,7 @@ This module ESM-exports one function:
 Usage
 -----
 
-see [test.usage.js](test.usage.js).
+see [test.usage.mjs](test.usage.mjs).
 
 
 <!--#toc stop="scan" -->

@@ -1,5 +1,5 @@
 { "name": "shq",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Quote a string for safe use as a shell argument. Strips null characters.",
   "keywords": [
     "bash",
@@ -30,6 +30,7 @@
   "browser": {
   },
   "devDependencies": {
+    "nodemjs": "^0.1.8"
   },
 
 
