@@ -1,0 +1,37 @@
+{ "name": "shq",
+  "version": "0.1.0",
+  "description": "Quote a string for safe use as a shell argument. Strips null characters.",
+  "keywords": [
+    "bash",
+    "escape",
+    "sh",
+    "shell",
+    "quote"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/shq-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/shq-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/shq-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "shq.mjs",
+  "scripts": { "test": "nodemjs test.usage.mjs" },
+  "directories": { "test": "test" },
+
+  "dependencies": {},
+  "browser": {
+  },
+  "devDependencies": {
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
