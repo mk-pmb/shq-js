@@ -36,7 +36,7 @@ Return a customized quoting function.
 
 ### shq.always
 
-A quoting function that adds `gratuitous` single quotes (c.f. `.cfg`).
+A quoting function that adds `gratuitous` single quotes (cf. `.cfg`).
 
 
 
