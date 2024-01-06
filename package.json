@@ -23,14 +23,17 @@
   "private": false, "license": "ISC",
 
   "main": "shq.mjs",
-  "scripts": { "test": "nodemjs test.usage.mjs" },
+  "scripts": { "test": "elp && nodemjs test.usage.mjs" },
   "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
 
   "dependencies": {},
-  "browser": {
-  },
   "devDependencies": {
-    "nodemjs": "^0.1.8"
+    "eslint-config-nodejs-pmb": "^0.3.5",
+    "eslint-plugin-json-light-pmb": "^1.0.7",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-pretty-pmb": "^1.0.5",
+    "nodemjs": "^0.1.14"
   },
 
 

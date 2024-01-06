@@ -1,8 +1,9 @@
 // -*- coding: utf-8, tab-width: 2 -*-
+/* eslint-disable quotes */
 
 import assert from 'assert';
 
-import shq from '.';
+import shq from './shq.mjs';
 
 function t(o, w) { assert.strictEqual(t.f(o), w); }
 
