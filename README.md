@@ -47,7 +47,7 @@ A quoting function that adds `gratuitous` single quotes (cf. `.cfg`).
 Usage
 -----
 
-see [test.usage.mjs](test.usage.mjs).
+see [test/usage.mjs](test/usage.mjs).
 
 
 <!--#toc stop="scan" -->

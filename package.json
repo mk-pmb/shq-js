@@ -23,7 +23,7 @@
   "private": false, "license": "ISC",
 
   "main": "shq.mjs",
-  "scripts": { "test": "elp && nodemjs test.usage.mjs" },
+  "scripts": { "test": "elp && nodemjs test/all.mjs" },
   "directories": { "test": "test" },
   "eslintConfig": { "extends": "nodejs-pmb" },
 
