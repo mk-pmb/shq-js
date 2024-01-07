@@ -1,5 +1,5 @@
 { "name": "shq",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Quote a string for safe use as a shell argument. Strips null characters.",
   "keywords": [
     "bash",
@@ -33,7 +33,9 @@
     "eslint-plugin-json-light-pmb": "^1.0.7",
     "eslint-plugin-n": "^15.2.4",
     "eslint-pretty-pmb": "^1.0.5",
-    "nodemjs": "^0.1.14"
+    "nodemjs": "^0.1.14",
+    "p-fatal": "^0.1.5",
+    "usnam-pmb": "^0.2.5"
   },
 
 

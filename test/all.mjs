@@ -5,4 +5,6 @@ import 'usnam-pmb';
 
 import './usage.mjs';
 
+import './bonus.dict2bash.mjs';
+
 console.info('+OK all tests passed.');
