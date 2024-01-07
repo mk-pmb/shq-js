@@ -3,7 +3,7 @@
 
 import assert from 'assert';
 
-import shq from '../shq.mjs';
+import shq from '../shq.js';
 
 function t(o, w) { assert.strictEqual(t.f(o), w); }
 
