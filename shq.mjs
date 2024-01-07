@@ -1,4 +1,5 @@
 // -*- coding: UTF-8, tab-width: 2 -*-
+'use strict';
 
 function d(m) { return (m.length === 1 ? "'\\''" : `'"${m}"'`); }
 
@@ -30,4 +31,4 @@ Object.assign(shq, {
   always: cfg({ gratuitous: "'" }),
 });
 
-export default shq;
+module.exports = shq;
