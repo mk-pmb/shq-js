@@ -9,6 +9,16 @@ Quote a string for safe use as a shell argument. Strips null characters.
 <!--/#echo -->
 
 
+
+CLI
+---
+
+A CLI is not currently planned.
+If you want an easy way to invoke this module from a shell script,
+try [enveval2401-pmb](https://www.npmjs.com/package/enveval2401-pmb).
+
+
+
 API
 ---
 
